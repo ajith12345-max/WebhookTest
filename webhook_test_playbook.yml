@@ -1,0 +1,7 @@
+---
+- name: Webhook Test Playbook
+  hosts: localhost
+  tasks:
+    - name: Print message from webhook
+      debug:
+        msg: "The webhook has been triggered!"
